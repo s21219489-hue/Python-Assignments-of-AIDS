@@ -1,0 +1,362 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "a1888b6d-316d-4a72-bbe1-466f781e4e47",
+   "metadata": {},
+   "source": [
+    "# Assignment "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "a5b0e13e-4975-404a-8b55-5a2ae1b083de",
+   "metadata": {},
+   "source": [
+    "## Task 1: Student Info"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "90df06b0-a930-432b-9f6a-1608b0406c74",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Name: Ayan Sheikh\n",
+      "Age: 18\n",
+      "City: Karachi\n",
+      "Student: True\n"
+     ]
+    }
+   ],
+   "source": [
+    "name = \"Ayan Sheikh\"\n",
+    "age = 18\n",
+    "city = \"Karachi\"\n",
+    "is_student = True\n",
+    "print(f\"Name: {name}\\nAge: {age}\\nCity: {city}\\nStudent: {is_student}\")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "e71d9f70-c15d-43d4-ae2a-b911a2b112dc",
+   "metadata": {},
+   "source": [
+    "## Task 2: Data Type"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "68724e38-025d-4e56-bf86-c61fdedbeff3",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Hello <class 'str'>\n",
+      "39 <class 'int'>\n",
+      "10.9 <class 'float'>\n",
+      "True <class 'bool'>\n"
+     ]
+    }
+   ],
+   "source": [
+    "a = \"Hello\" \n",
+    "b = 39\n",
+    "c = 10.9\n",
+    "d = True\n",
+    "print(a, type(a))\n",
+    "print(b, type(b))\n",
+    "print(c, type(c))\n",
+    "print(d, type(d))"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "9f0095cb-da5b-47c9-b272-fe608036bcf6",
+   "metadata": {},
+   "source": [
+    "## Task 3: Arithematic Operators"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "id": "80217b78-9133-414c-a212-8c7f4d0211e4",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "x = 40\n",
+    "y = 6\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "0807763e-bfc4-4d21-bf0b-d2a2a278c78c",
+   "metadata": {},
+   "source": [
+    "## Task 4: Marks Claculator"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "id": "53df9f69-4eed-490c-a298-d55090de1111",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Total: 220\n",
+      "Average: 73.33333333333333\n"
+     ]
+    }
+   ],
+   "source": [
+    "m1 = 70 \n",
+    "m2 = 60\n",
+    "m3 = 90\n",
+    "total  = m1 + m2 + m3\n",
+    "avg = total / 3\n",
+    "print(\"Total:\", total)\n",
+    "print(\"Average:\", avg)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "3dcd3df4-3183-47f9-a7b0-c2f152105edb",
+   "metadata": {},
+   "source": [
+    "## Taask 5: Shopping Bill"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "id": "2b1d238a-c04c-4b4f-84f7-5eacb7bf8230",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Total Bill: 900\n"
+     ]
+    }
+   ],
+   "source": [
+    "price = 450\n",
+    "qty = 2\n",
+    "total_bill = price * qty\n",
+    "print(\"Total Bill:\", total_bill)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "b62e21f9-6fa3-4e0b-af24-65672376b651",
+   "metadata": {},
+   "source": [
+    "## Task 6: Reactangle Angle"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "id": "2cc8cec7-b2ce-4bf3-8fb1-b2bbab15c28d",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Area: 5500\n",
+      "primeter: 320\n"
+     ]
+    }
+   ],
+   "source": [
+    "length = 110 \n",
+    "width = 50\n",
+    "area = length * width\n",
+    "primeter = 2 * (length + width)\n",
+    "print(\"Area:\", area)\n",
+    "print(\"primeter:\", primeter)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "db2a5781-066d-4385-87f7-3e7fbdbaa3d6",
+   "metadata": {},
+   "source": [
+    "## Task 7: Time Converter"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "54f1f201-3ea2-4f7f-b937-25f036326503",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Hours: 4\n",
+      "Rmainging Minuttes: 0\n"
+     ]
+    }
+   ],
+   "source": [
+    "mins = 240\n",
+    "hours = mins // 60\n",
+    "rem_mins = mins % 60\n",
+    "print(\"Hours:\", hours)\n",
+    "print(\"Rmainging Minuttes:\", rem_mins)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "1856fa49-ac0e-4c42-b6f3-8749d1142d7f",
+   "metadata": {},
+   "source": [
+    "## Task 8: Stuent Elegibility"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "id": "9006151d-e0aa-41af-b0cc-2cdee17c918d",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Eligible: True\n"
+     ]
+    }
+   ],
+   "source": [
+    "marks = 80\n",
+    "attendance = 90\n",
+    "is_eligible = marks >= 50 and attendance >= 75\n",
+    "print(\"Eligible:\", is_eligible)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "88996c6e-9c17-4c1f-a701-92e4a73d36d7",
+   "metadata": {},
+   "source": [
+    "## Task 9: Logical Operators"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "id": "b73582fd-3690-47b2-bdbe-8cf156fbefb6",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "False\n",
+      "True\n",
+      "False\n",
+      "True\n"
+     ]
+    }
+   ],
+   "source": [
+    "a = True\n",
+    "b = False\n",
+    "print(a and b)\n",
+    "print(a or b)\n",
+    "print(not a)\n",
+    "print(not b)\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "fbdbf3be-070c-412c-8891-6bb4fdd56803",
+   "metadata": {},
+   "source": [
+    "## Final Challenge"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 19,
+   "id": "d33dd4cd-71ac-4b64-b5db-515d6961c76d",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Name: Ayan Sheikh\n",
+      "Age: 18\n",
+      "Marks: 70 60 90\n",
+      "Attendance: 80\n",
+      "total Marks: 220\n",
+      "Average: 73.33333333333333\n"
+     ]
+    }
+   ],
+   "source": [
+    "name = \"Ayan Sheikh\"\n",
+    "age = 18\n",
+    "m1 = 70\n",
+    "m2 = 60\n",
+    "m3 = 90\n",
+    "att = 80\n",
+    "print(\"Name:\", name)\n",
+    "print(\"Age:\", age)\n",
+    "print(\"Marks:\", m1, m2, m3)\n",
+    "print(\"Attendance:\", att)\n",
+    "total = m1 + m2 + m3\n",
+    "avg = total / 3\n",
+    "print(\"total Marks:\", total)\n",
+    "print(\"Average:\", avg)\n",
+    " "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "6a4e5289-e27b-4d02-876e-2e5ffbfaec88",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.14.6"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
